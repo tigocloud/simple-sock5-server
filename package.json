@@ -1,29 +1,27 @@
 {
-  "name": "simple-sock5-server",
-  "version": "1.0.0",
-  "description": "The simplest SOCKS5 server. That's it, nothing more. To hell with it.",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "run": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tigocloud/simple-sock5-server.git"
-  },
-  "keywords": [
-    "sock5"
-  ],
-  "author": "Dark495",
-  "license": "WTFPL",
-  "bugs": {
-    "url": "https://github.com/tigocloud/simple-sock5-server/issues"
-  },
-  "homepage": "https://github.com/tigocloud/simple-sock5-server#readme",
-  "devDependencies": {
-    "dotenv": "^16.4.5"
-  },
-  "dependencies": {
-    "socks5server": "^4.5.2"
-  }
+	"name": "simple-sock5-server",
+	"version": "1.0.0",
+	"description": "The simplest SOCKS5 server. That's it, nothing more. To hell with it.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tigocloud/simple-sock5-server.git"
+	},
+	"keywords": [
+		"sock5"
+	],
+	"author": "Dark495",
+	"license": "WTFPL",
+	"bugs": {
+		"url": "https://github.com/tigocloud/simple-sock5-server/issues"
+	},
+	"homepage": "https://github.com/tigocloud/simple-sock5-server#readme",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"simple-socks": "^3.1.0"
+	}
 }
